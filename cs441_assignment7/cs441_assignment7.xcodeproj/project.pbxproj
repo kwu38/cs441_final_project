@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233020E7228762920050393D /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 233020E6228762920050393D /* court.png */; };
+		233020E922876A730050393D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 233020E822876A730050393D /* arrow.png */; };
+		233020EB22877C540050393D /* nets.png in Resources */ = {isa = PBXBuildFile; fileRef = 233020EA22877C530050393D /* nets.png */; };
+		233020ED22877C5C0050393D /* warriors.png in Resources */ = {isa = PBXBuildFile; fileRef = 233020EC22877C5B0050393D /* warriors.png */; };
+		233020EF228783C50050393D /* dlo.png in Resources */ = {isa = PBXBuildFile; fileRef = 233020EE228783C30050393D /* dlo.png */; };
+		233020F1228783C80050393D /* kd.png in Resources */ = {isa = PBXBuildFile; fileRef = 233020F0228783C80050393D /* kd.png */; };
 		239FEE412282202E00361E29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 239FEE402282202E00361E29 /* AppDelegate.m */; };
 		239FEE442282202E00361E29 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239FEE432282202E00361E29 /* RootViewController.m */; };
 		239FEE472282202E00361E29 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239FEE462282202E00361E29 /* DataViewController.m */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		233020E6228762920050393D /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = court.png; path = ../../../../Downloads/court.png; sourceTree = "<group>"; };
+		233020E822876A730050393D /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../../Downloads/arrow.png; sourceTree = "<group>"; };
+		233020EA22877C530050393D /* nets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nets.png; path = ../../../../Downloads/nets.png; sourceTree = "<group>"; };
+		233020EC22877C5B0050393D /* warriors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warriors.png; path = ../../../../Downloads/warriors.png; sourceTree = "<group>"; };
+		233020EE228783C30050393D /* dlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dlo.png; path = ../../../../Downloads/dlo.png; sourceTree = "<group>"; };
+		233020F0228783C80050393D /* kd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kd.png; path = ../../../../Downloads/kd.png; sourceTree = "<group>"; };
 		239FEE3C2282202E00361E29 /* cs441_assignment7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cs441_assignment7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239FEE3F2282202E00361E29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		239FEE402282202E00361E29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +76,12 @@
 		239FEE3E2282202E00361E29 /* cs441_assignment7 */ = {
 			isa = PBXGroup;
 			children = (
+				233020EC22877C5B0050393D /* warriors.png */,
+				233020EA22877C530050393D /* nets.png */,
+				233020E822876A730050393D /* arrow.png */,
+				233020EE228783C30050393D /* dlo.png */,
+				233020E6228762920050393D /* court.png */,
+				233020F0228783C80050393D /* kd.png */,
 				239FEE3F2282202E00361E29 /* AppDelegate.h */,
 				239FEE402282202E00361E29 /* AppDelegate.m */,
 				239FEE422282202E00361E29 /* RootViewController.h */,
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				239FEE522282203100361E29 /* LaunchScreen.storyboard in Resources */,
+				233020EF228783C50050393D /* dlo.png in Resources */,
+				233020E7228762920050393D /* court.png in Resources */,
 				239FEE4F2282203100361E29 /* Assets.xcassets in Resources */,
+				233020ED22877C5C0050393D /* warriors.png in Resources */,
+				233020F1228783C80050393D /* kd.png in Resources */,
+				233020E922876A730050393D /* arrow.png in Resources */,
 				239FEE4D2282202E00361E29 /* Main.storyboard in Resources */,
+				233020EB22877C540050393D /* nets.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

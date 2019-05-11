@@ -17,7 +17,11 @@
 
 @implementation RootViewController
 
+@synthesize ddMenu, ddText;
+@synthesize ddMenuShowButton;
 @synthesize modelController = _modelController;
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

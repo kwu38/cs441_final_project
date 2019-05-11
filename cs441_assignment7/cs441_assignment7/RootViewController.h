@@ -11,6 +11,12 @@
 @interface RootViewController : UIViewController <UIPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
+@property (nonatomic, strong) IBOutlet UILabel *ddText;
+@property (nonatomic, strong) IBOutlet UIView *ddMenu;
+@property (nonatomic, strong) IBOutlet UIButton *ddMenuShowButton;
+
+
+
 
 @end
 

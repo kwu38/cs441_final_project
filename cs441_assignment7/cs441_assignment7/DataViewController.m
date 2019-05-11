@@ -14,9 +14,6 @@
 
 @implementation DataViewController
 
-@synthesize label;
-@synthesize image;
-@synthesize toggle;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,8 +22,8 @@
 
 
 - (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
+  //  [super viewWillAppear:animated];
+  //  self.dataLabel.text = [self.dataObject description];
 }
 
 
